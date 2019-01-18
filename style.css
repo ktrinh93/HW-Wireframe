@@ -3,20 +3,50 @@ body{
     color: #777;
     background: #777;
     width: 960px;
-    font-size: 18px
+    font-size: 18px;
+    margin: auto;
 }
 
 header,
 nav,
 section,
 aside,
-footer{
+footer {
     background: #ebebeb;
+    text-align: center;
+    padding: 15px;
+    margin: 10px
 }
 
-article{
+header {
+    
+}
+
+nav {
+
+}
+
+.mid {
+    padding: 1px 0;
+}
+
+section {
+    width: 495px;
+}
+
+article {
     color: #ebebeb;
-    background: #777
+    background: #777;
+    padding: 10px;
+    margin: 25px
+}
+
+aside {
+    align-content: right;
+}
+
+footer {
+    
 }
 
 h1,
