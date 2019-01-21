@@ -14,45 +14,63 @@ aside,
 footer {
     background: #ebebeb;
     text-align: center;
-    padding: 15px;
+    padding: 5px;
     margin: 10px
-}
-
-header {
-    
-}
-
-nav {
-
-}
-
-.mid {
-    padding: 1px 0;
 }
 
 section {
     width: 495px;
 }
 
+.sectionDiv {
+    float: left;
+}
+
 article {
+    background-color: #777;
+    padding: 0px 10px 5px 10px;
+    margin: 5px
+}
+
+#articleTitle {
     color: #ebebeb;
-    background: #777;
-    padding: 10px;
-    margin: 25px
+    background: transparent;
+    padding: 15px 0px 5px 0px;
+    margin: 10px;
+}
+
+#articleHeader {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 0px 15px 0px;
+    margin: 10px;
+}
+
+#articleP {
+    padding: 15px 0px 15px 0px;
+    margin: 10px;
 }
 
 aside {
-    align-content: right;
+    padding: 5px 0px 190px 0px;
+}
+
+.asideDiv {
+    clear: right;
+    float: right;
+    width: 435px;
 }
 
 footer {
-    
+    clear: both;
+    margin: 305px 10px 0px 10px;
 }
 
 h1,
 p{
     color: #777;
     font-size: 18px;
-    font-style: normal;
-    background: #ebebeb
+    font-weight: normal;
+    background: #ebebeb;
+    padding: 10px;
 }
