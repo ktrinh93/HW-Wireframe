@@ -4,6 +4,7 @@ body{
     background: #777;
     width: 960px;
     font-size: 18px;
+    text-align: center;
     margin: auto;
 }
 
@@ -13,17 +14,31 @@ section,
 aside,
 footer {
     background: #ebebeb;
-    text-align: center;
     padding: 5px;
     margin: 10px
 }
 
+h1,
+p{
+    color: #777;
+    font-size: 18px;
+    font-weight: normal;
+    background: #ebebeb;
+    padding: 10px;
+}
+
+.row {
+    margin: 1px;
+}
+
 section {
+    clear: both;
     width: 495px;
 }
 
 .sectionDiv {
     float: left;
+    margin: 0px;
 }
 
 article {
@@ -58,19 +73,15 @@ aside {
 .asideDiv {
     clear: right;
     float: right;
-    width: 435px;
+    width: 433px;
+}
+
+.row {
+    clear: both;
+    margin: 1px;
 }
 
 footer {
     clear: both;
-    margin: 305px 10px 0px 10px;
-}
-
-h1,
-p{
-    color: #777;
-    font-size: 18px;
-    font-weight: normal;
-    background: #ebebeb;
-    padding: 10px;
+    margin: 10px 10px 10px 10px;
 }
