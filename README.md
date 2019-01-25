@@ -1,2 +1,3 @@
 # HW-Wireframe
-HW1
+
+Basic wireframe assignment used familarize ourselves with very basic HTML and CSS.
